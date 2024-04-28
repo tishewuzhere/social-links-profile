@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.modal img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.modal h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin: unset;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.address {
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1.7rem;
+    font-weight: 500;
+}
+
+.info {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-flow: column;
+    margin-top: 1.5rem;
+}
+
+.social-links a {
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.social-links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+    transition: 0.3s ease-in-out;
+}
